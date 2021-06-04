@@ -79,6 +79,8 @@ Start` is set to 0) the session state needs to be taken over.
    of the session and that it was taken over.
 1. Any pending messages are delivered to the client.
 
+![Sequence diagram of current implementation of takeover](0011-assets/current-implementation.png)
+
 ### Alternatives for persistent storage
 
 #### Semi-persistent storage in ram
